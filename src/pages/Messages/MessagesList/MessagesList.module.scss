@@ -1,0 +1,10 @@
+.MessagesList {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background: #fff;
+	width: 570px;
+	border-radius: 34px;
+	flex-grow: 1;
+	overflow: auto;
+}

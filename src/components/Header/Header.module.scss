@@ -1,0 +1,17 @@
+.Header {
+	width: 100%;
+	padding: 16px 0;
+	background: #fff;
+	border-top-left-radius: 34px;
+	border-top-right-radius: 34px;
+
+	&Container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&Logo {
+		padding-top: 6px;
+	}
+}

@@ -1,0 +1,49 @@
+.Form {
+	display: flex;
+	align-items: center;
+	position: relative;
+	padding-left: 11px;
+	// border-left: 1px solid rgba(0, 0, 0, 0.28);
+
+	&::after {
+		content: '';
+		height: 100%;
+		width: 1px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background: rgba(0, 0, 0, 0.28);
+		border-radius: 18px;
+	}
+
+	&Button {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 61px;
+		height: 44px;
+		border-radius: 0 18px 18px 0;
+		background: rgba(12, 65, 149, 0.46);
+	}
+
+	&Icon {
+		margin-right: 3px;
+	}
+}
+
+.Input {
+	width: 267px;
+	height: 44px;
+	background: #f6f6f6;
+	border-radius: 18px 0 0 18px;
+	padding-left: 14px;
+	font-size: 14px;
+	line-height: 16px;
+
+	&::placeholder {
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 16px;
+		color: rgba(0, 0, 0, 0.53);
+	}
+}
